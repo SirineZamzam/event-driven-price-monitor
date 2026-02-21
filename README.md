@@ -1,6 +1,7 @@
 ### Event-Driven Price Monitoring System
 ## Overview
 -This project is a modular backend system that monitors product prices from external APIs, detects significant changes, and generates structured decisions through a background processing pipeline.
+
 -It demonstrates event-driven architecture, database modeling, and layered backend design.
 
 ## Architecture
@@ -20,18 +21,28 @@ FastAPI REST API
 
 ## Tech Stack
 -Python
+
 -PostgreSQL
+
 -FastAPI
+
 -Requests
+
 -Event-driven worker pattern
 
 ## Features
 -Monitors multiple products
+
 -Detects significant price changes (threshold-based)
+
 -Stores historical events
+
 -Background worker processes unprocessed events
+
 -Abstracted AI layer (mocked for development)
+
 -REST API to retrieve events and decisions
+
 -Scheduler for automated continuous monitoring
 
 ## Design Decisions
@@ -57,14 +68,19 @@ uvicorn app.api.main:app --reload
 
 ## Future Improvements
 -Historical trend analysis
+
 -Forecasting model
+
 -Deployment to cloud
+
 -Containerization (Docker)
+
 -Replace mock AI with local LLM or hosted model
 
 ## What This Project Demonstrates
 -Backend system design
+
 -Relational data modeling
+
 -Background worker patterns
--External API integration
--Modular architecture thinking
+-External API integration-Modular architecture thinking
